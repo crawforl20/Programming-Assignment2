@@ -1,4 +1,4 @@
-//Jake Nguyen - OS Homework
+//Jake Nguyen & Logan Crawford - OS Homework
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -56,7 +56,7 @@ void *Calcpoint(void *threaddid )
     _circle.center.x=0;
     _circle.center.y=0;
     _circle.rad=1;
-    
+
     // Base of the relationship between the circle in the square
     _square.tl.x=_circle.center.x-_circle.rad;
     _square.tl.y=_circle.center.y+_circle.rad;
